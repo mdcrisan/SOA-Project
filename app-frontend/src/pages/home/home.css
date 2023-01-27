@@ -1,0 +1,51 @@
+table { 
+    width: 95%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+  }
+
+  .deleteButton {
+    width: 32%;
+    padding: 10px;
+    background-color: rgb(202, 20, 20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    width: 32%;
+    padding: 10px;
+    background-color: rgb(25, 183, 204);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1em;
+  }
+
+  .addButton {
+    width: 8%;
+    padding: 10px;
+    background-color: rgb(18, 8, 112);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 3em;
+    margin-bottom: 1em;
+  }

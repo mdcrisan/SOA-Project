@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: IconiqueServiceDiscovery
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+server:
+  port: 8761
+
+
+

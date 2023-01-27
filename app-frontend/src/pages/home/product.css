@@ -1,0 +1,22 @@
+.addProductButton {
+    width: 10%;
+    padding: 10px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addProductInput {
+    width: 27%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.productContainer{
+    margin-bottom: 1em;
+}
+
+.product {
+    height: 67vh;
+    
+}
